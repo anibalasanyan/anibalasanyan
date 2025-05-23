@@ -1,6 +1,6 @@
 # 👋 Hi, I'm Ani Balasanyan
 
-🎯 **Senior Software Engineer** with a PhD in Computer Science and over 10 years of experience designing scalable backend systems, primarily in aviation and enterprise scheduling domains.
+🎯 **Senior Software Engineer** with a PhD in Computer Science and over 12 years of experience designing scalable backend systems, primarily in aviation and enterprise scheduling domains.
 
 ---
 
