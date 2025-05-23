@@ -4,12 +4,28 @@
 
 ---
 
-## 🛠 Tech Stack & Tools
-- **Languages:** C#, T-SQL, JavaScript, HTML/CSS
-- **Frameworks:** .NET Core, ASP.NET, WPF, WinForms, Entity Framework
-- **Databases:** MongoDB, Microsoft SQL Server, MySQL
-- **Architecture:** Microservices, REST APIs, Message Queues (RabbitMQ, ActiveMQ)
-- **Tools:** Git, Visual Studio, Postman, WCF, SharePoint
+## 🛠 Technical Skills & Expertise
+
+### Programming Languages & Frameworks
+- **Languages:** C#, T-SQL, SQL, JavaScript, HTML5, CSS3, XML, JSON
+- **Backend Frameworks:** .NET Core, ASP.NET (MVC, Web API, AJAX), WPF, WinForms, Entity Framework (EF Core, EF CodeFirst), LINQ
+- **Frontend Libraries & Frameworks:** jQuery, jQWidgets, Ext JS
+- **API & Web Services:** RESTful APIs, WCF, Web Services
+
+### Database Technologies
+- **Databases:** Microsoft SQL Server, MySQL, MongoDB  
+- **ORM & Data Access:** Entity Framework, ADO.NET, T-SQL
+
+### Architecture & Design
+- Microservices Architecture  
+- Message Queues: RabbitMQ, ActiveMQ  
+- Object-Oriented Programming (OOP) Principles  
+- Unit and Integration Testing  
+- CMS Platforms: Drupal, DotNetNuke, InfoPath  
+
+### Tools & Platforms
+- Visual Studio, Git, Postman  
+- SharePoint, Microsoft Reporting Services  
 
 ---
 
@@ -22,96 +38,69 @@
 ---
 
 ## ✈️ Featured Projects
+
 ### 🔹 Amadeus SkyWORKS  
-Desktop suite enabling real-time flight scheduling and operations for global airlines.  
-*Tech: : C#, MongoDB, OOP, Git, WPF, Microservices, REST APIs, Message Queues 
-(RabbitMQ, ActiveMQ), Unit/Integration testing*
-###🔹 Gantt Chart Backend Infrastructure
-Role: Backend Engineer
-Tech Stack: C#, .NET, MongoDB, GraphQL, Microservices
+A desktop suite enabling real-time flight scheduling and operations for global airlines.  
+**Tech:** C#, MongoDB, OOP, Git, WPF, Microservices, REST APIs, Message Queues (RabbitMQ, ActiveMQ), Unit/Integration Testing
 
-Designed and implemented the backend infrastructure powering a high-performance Gantt chart visualization tool for real-time scheduling. This system supports:
+#### 🔸 Big Data Schedule Import/Export
+- Engineered robust import/export for large-scale airline schedule data.
+- Implemented parsing, validation, transformation, and optimized persistence.
+- Designed external format compatibility and high-throughput processing.  
+📌 **Result:** Improved export performance by **over 90%**, eliminating timeouts and meeting airline SLA requirements for large data operations.
 
-Grouping and sorting of segments by flight, aircraft, or user-defined keys
+#### 🔸 Gantt Chart Backend Infrastructure
+- Designed and implemented backend infrastructure powering high-performance Gantt chart visualizations.
+- Supported grouping, filtering, and paginated delivery of scheduling data via REST and GraphQL APIs.  
+📌 **Result:** Enabled scalable timeline rendering across millions of flight segments.
 
-Time-based filtering for optimal performance on large datasets
+#### 🔸 Slots into Schedule
+- Integrated airport slot management into flight schedules with visual and logical validations.  
+📌 **Result:** Boosted airline compliance and planning accuracy.
 
-Support for both REST and GraphQL APIs
+#### 🔸 Understanding Index Set
+- Developed abstraction for grouping schedule data by flight or aircraft.  
+📌 **Result:** Improved consistency in visual time-based data and backend query efficiency.
 
-Paginated and structured delivery of GanttItem and GanttGroup DTOs
+#### 🔸 Segment Comments
+- Built a comment system with metadata for specific flight segments, including SSIM import/export.  
+📌 **Result:** Enhanced communication and ticketing clarity for airlines.
 
-📌 Result: Enabled dynamic, scalable timeline rendering across millions of flight segments and optimized backend query performance through aggregation and caching strategies.
+#### 🔸 Publication Rules for Segments
+- Developed rules engine for publishing flight segments with virtual modeling and filtering logic.  
+📌 **Result:** Automated visibility controls and reduced manual scheduling effort.
 
-###🔹 Slots into Schedule
-Role: System Integrator & Backend Developer
-Tech Stack: C#, MongoDB, Microservices
+---
 
-Integrated airport slot management into flight schedules by modeling slots as special segment objects. Key contributions:
+### 🔹 Amadeus SkySYM – Sky Suite | *Jan 2018 – Nov 2019*  
+A solution for dynamic simulations and predictive analytics to optimize airline operations.
 
-Defined slot types (departure, arrival, turnaround) and their relationships to flight legs
+**Tech:** C#, MongoDB, OOP, Git, WPF, Microservices, REST APIs, RabbitMQ, ActiveMQ, Unit/Integration Testing
 
-Created logic to detect slot mismatches and generate warnings
+- Enhanced decision-making and profitability through scenario modeling and predictive analytics.
+- Delivered custom simulations for client airlines to manage operational bottlenecks.
 
-Enhanced the scheduling UI with visual feedback based on slot validation
-
-📌 Result: Improved airline compliance with airport slot constraints and supported operational planning with clear, slot-aware visualizations.
-
-###🔹 Understanding Index Set
-Role: Data Architect
-Tech Stack: C#, MongoDB
-
-Developed the IndexSet abstraction for grouping related schedule data (e.g., segments, violations, publications) by key identifiers such as aircraft or flight number. Contributions include:
-
-Standardizing grouped data access across microservices
-
-Designing a flexible structure to support custom views in Gantt charts
-
-Improving backend efficiency by pre-grouping data for visualization and filtering
-
-📌 Result: Simplified data querying and improved consistency in time-based visual components across the scheduling platform.
-
-###🔹 Segment Comments
-Role: Feature Owner & Functional Designer
-Tech Stack: C#, MongoDB, SSIM integration
-
-Designed a flexible comment system allowing airlines to attach metadata to specific flight segments. Features include:
-
-Support for direct, nonstop, and connecting itinerary comments
-
-User-defined fields (traffic restrictions, meal codes, terminal notes)
-
-Import/export using SSIM standards
-
-Rule-based and persistent storage strategies for comment handling
-
-📌 Result: Provided airlines with a robust way to annotate itineraries, improving ticketing accuracy and operational communication.
-
-###🔹 Publication Rules for Segments
-Role: Rules Engine Developer
-Tech Stack: C#, .NET, Domain-Specific Logic
-
-Implemented the SegmentRules engine for controlling when and how flight segments are published to external systems. Key highlights:
-
-On-demand virtual segment generation for rule evaluation
-
-Use of FilterBuilder, FilterConverter, and FilterCriteria for flexible filtering
-
-Resolved edge cases where segments did not yet exist in the backend by generating virtual models
-
-📌 Result: Enabled precise control over segment visibility and scheduling workflows, improving rule-based decision automation and reducing manual oversight.
+#### 🔸 Security Engineer Highlights
+- Designed and implemented secure JWT-based authentication for easyJet, with multi-layer access control and encryption best practices.
+- Led technical discussions with client security and engineering teams to align authentication with enterprise security standards.
+- Integrated secure authentication modules seamlessly within the microservices architecture of the SkySuite platform.  
+📌 **Result:** Enabled **SkySYM to meet security compliance and become fully usable by easyJet**, supporting secure deployment into their operational ecosystem.
 
 ---
 
 ## 🏆 Awards & Certifications
-- 🏅 Microsoft Certified Technology Specialist (MCTS)
-- 🎓 Gold Medal in High School for Academic Excellence
-- 📜 Published research in educational systems
+- 🏅 Microsoft Certified Professional  
+- 🏅 Microsoft Certified Technology Specialist (MCTS)  
+- 🎓 Anania Shirakatsi Educational Pension – Yerevan State University  
+- 🎓 FAR Educational Monetary Award – Outstanding Academic Performance  
+- 🎓 High School Gold Medal – Academic Excellence  
+- 📜 Published research – *Building and Execution of Queries for Educational Process Management System*
 
 ---
 
 ## 📫 Let’s Connect!
-- [LinkedIn](https://www.linkedin.com/in/anibalasanyan/)
-- 📧 anibalasanyan@yahoo.com
+- [LinkedIn](https://www.linkedin.com/in/anibalasanyan/)  
+- 📧 anibalasanyan@yahoo.com  
 
 ---
 
