@@ -6,92 +6,54 @@
 
 ## 🛠 Technical Skills & Expertise
 
-### Programming Languages & Frameworks
+### Languages & Frameworks
 - **Languages:** C#, T-SQL, SQL, JavaScript, HTML5, CSS3, XML, JSON
-- **Backend Frameworks:** .NET Core, ASP.NET (MVC, Web API, AJAX), WPF, WinForms, Entity Framework (EF Core, CodeFirst), LINQ
-- **Frontend Libraries & Frameworks:** jQuery, jQWidgets, Ext JS
-- **API & Web Services:** RESTful APIs, WCF, Web Services
+- **Frameworks:** .NET Core, ASP.NET (MVC, Web API), WPF, Entity Framework (EF Core, CodeFirst), LINQ, WinForms
+- **Frontend:** jQuery, jQWidgets, Ext JS
+- **APIs:** RESTful APIs, WCF, Web Services
 
-### Database Technologies
-- **Databases:** SQL Server, MySQL, MongoDB
-- **ORM & Data Access:** Entity Framework, ADO.NET
+### Architecture & DevOps
+- Microservices, JWT Authentication
+- Docker, Git, CI/CD
+- RabbitMQ, ActiveMQ
+- OOP, Unit & Integration Testing
 
-### Architecture & Design
-- Microservices Architecture  
-- Message Queues: RabbitMQ, ActiveMQ  
-- Object-Oriented Design (OOP)  
-- Unit & Integration Testing  
-- CMS Platforms: Drupal, DotNetNuke, InfoPath  
+### Databases
+- SQL Server, MySQL, MongoDB
+- Entity Framework, ADO.NET
 
 ### Tools & Platforms
-- Visual Studio, Git, Postman  
-- SharePoint, Microsoft Reporting Services  
+- Visual Studio, Postman, Swagger, SharePoint, Microsoft Reporting Services
+- CMS: DotNetNuke, Drupal, InfoPath
 
 ---
 
 ## 🧩 What I Do
-- Build and optimize **real-time scheduling systems** for global airlines and transportation.
-- Architect **secure authentication modules** (JWT, encryption, enterprise security compliance).
-- Design **microservice-based infrastructures** enabling modular, scalable data pipelines.
-- Lead complex backend systems through full SDLC with cross-functional teams.
-- Drive measurable business outcomes with resilient, production-grade solutions.
+
+- Build and optimize **real-time flight scheduling systems**
+- Design **secure authentication modules** and integrate them with enterprise policies
+- Architect **modular, microservice-based systems** with high performance and reliability
+- Lead cross-functional backend development through the entire SDLC
+- Transform complex requirements into measurable business outcomes
 
 ---
 
 ## ✈️ Featured Projects
 
----
-
 ### 🔹 Amadeus SkyWORKS — Real-Time Flight Scheduling Suite
+**Tech:** C#, MongoDB, SQL Server, WPF, Microservices, REST APIs, RabbitMQ, ActiveMQ
 
-A highly scalable desktop platform enabling real-time flight scheduling, workforce optimization, and operational planning for global airlines.
+- 🚀 **Big Data Schedule Export**: Improved throughput by 90% for multi-million record exports
+- 🚀 **Gantt Chart Backend**: Enabled high-speed visual rendering for global operations
+- 🚀 **Segment Publishing Rules & Comments**: Automated rule-based segment logic for publication
+- 🚀 **Gate & Staffed Gate Optimization**: Reduced violations and improved gate usage with algorithmic scheduling
+- 🚀 **Generic Filtering**: Modular filter engine improving performance by 30%
 
-**Tech:** C#, MongoDB, SQL Server, OOP, Git, WPF, Microservices, REST APIs, RabbitMQ, ActiveMQ, Unit Testing
+### 🔹 Amadeus SkySYM — Predictive Simulation Engine
+**Tech:** C#, .NET, SQL Server, MongoDB, Microservices
 
-#### 🚀 Big Data Schedule Import/Export
-- Engineered robust import/export pipelines for large-scale airline schedule data.
-- Implemented parsing, validation, transformation, and optimized persistence.
-- 📈 **Result:** Improved export performance by **90%+**, eliminating timeouts and meeting airline SLA targets.
-
-#### 🚀 Gantt Chart Backend Infrastructure
-- Designed backend APIs powering high-performance Gantt chart visualizations.
-- Enabled scalable timeline rendering across millions of flight segments.
-- 📈 **Result:** Enabled rapid, complex schedule visualization for operational teams.
-
-#### 🚀 Generic Filtering Infrastructure
-- Refactored filtering into generic reusable APIs for both UI and internal services.
-- 📈 **Result:** Improved filtering speed by **30%**; optimized related APIs by **10%**; improved filtering UI performance by **15%**.
-
-#### 🚀 Publication Rules & Segment Comments
-- Built metadata-driven comments system and rule engines for flight segment visibility control.
-- 📈 **Result:** Automated segment publishing logic, reducing manual scheduling efforts.
-
-#### 🚀 Staffed Gate Optimization Logic
-- Engineered advanced **Staffed Gates Algorithm** simulating crew capacity, buffer windows, towing logic & shift reassignments.
-- Built multiple dynamic datasets with import validation for accurate staffed gate feasibility checks.
-- 📈 **Result:** Reduced staffing violations and improved gate utilization across constrained airport operations.
-
-#### 🚀 Enhanced Logging & Exception Handling
-- Refined error handling & centralized logging across distributed microservices.
-- 📈 **Result:** Improved debugging visibility and reduced bug resolution times by **15%**.
-
----
-
-### 🔹 Amadeus SkySYM — Predictive Simulation Suite
-
-A simulation engine delivering predictive analytics, scenario modeling, and operational forecasting for airlines as part of the larger SkySuite platform.
-
-**Tech:** C#, MongoDB, SQL Server, OOP, WPF, Microservices, REST APIs, RabbitMQ, ActiveMQ, Unit Testing
-
-#### 🔧 Platform Refactoring & SkySuite Integration
-- Led **modularization and refactoring efforts** to align SkySYM architecture with broader SkySuite platform standards.
-- Consolidated microservices, shared data contracts, and reusable APIs to enable easier maintenance, scalability, and integration across scheduling and simulation domains.
-- 📈 **Result:** Successfully integrated SkySYM into the SkySuite product line, improving codebase maintainability and accelerating cross-suite feature delivery.
-
-#### 🔐 Security Engineering Highlights
-- Designed and implemented **JWT-based authentication** with multi-layer access control and encryption.
-- Led security integration discussions with client security & engineering teams.
-- 📈 **Result:** Enabled secure deployment of SkySYM into production environments (EasyJet), passing enterprise compliance audits.
+- 🔧 **Platform Refactoring**: Unified SkySYM architecture with shared SkySuite platform
+- 🔐 **JWT Authentication**: Enabled secure production deployment for global clients (e.g., EasyJet)
 
 ---
 
@@ -99,18 +61,17 @@ A simulation engine delivering predictive analytics, scenario modeling, and oper
 
 - 🏅 Microsoft Certified Professional (MCP)
 - 🏅 Microsoft Certified Technology Specialist (MCTS)
-- 🎓 Anania Shirakatsi Educational Pension — Yerevan State University
-- 🎓 FAR Educational Monetary Award — Outstanding Academic Performance
-- 🎓 High School Gold Medal — Academic Excellence
-- 📜 Publication — *Building and Execution of Queries for Educational Process Management System*
+- 📜 Published Research — *Query Engine for Educational Process Management*
+- 🎓 Multiple Academic Excellence Awards
 
 ---
 
-## 📫 Let's Connect!
+## 📫 Let's Connect
 
-- [LinkedIn](https://www.linkedin.com/in/anibalasanyan/)
 - 📧 anibalasanyan@yahoo.com
+- 💼 [LinkedIn](https://linkedin.com/in/anibalasanyan)
+- 💻 [GitHub](https://github.com/anibalasanyan)
 
 ---
 
-_“Elegant code, resilient systems, and measurable impact — that’s what I strive to build.”_
+> “Elegant code, resilient systems, and measurable impact — that’s what I strive to build.”
